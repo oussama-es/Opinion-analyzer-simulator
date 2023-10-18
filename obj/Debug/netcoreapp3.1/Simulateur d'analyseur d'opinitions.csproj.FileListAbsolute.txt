@@ -1,0 +1,18 @@
+E:\3eme annee ESISA\C#\Simulateur d'analyseur d'opinitions\bin\Debug\netcoreapp3.1\Simulateur d'analyseur d'opinitions.exe
+E:\3eme annee ESISA\C#\Simulateur d'analyseur d'opinitions\bin\Debug\netcoreapp3.1\Simulateur d'analyseur d'opinitions.deps.json
+E:\3eme annee ESISA\C#\Simulateur d'analyseur d'opinitions\bin\Debug\netcoreapp3.1\Simulateur d'analyseur d'opinitions.runtimeconfig.json
+E:\3eme annee ESISA\C#\Simulateur d'analyseur d'opinitions\bin\Debug\netcoreapp3.1\Simulateur d'analyseur d'opinitions.runtimeconfig.dev.json
+E:\3eme annee ESISA\C#\Simulateur d'analyseur d'opinitions\bin\Debug\netcoreapp3.1\Simulateur d'analyseur d'opinitions.dll
+E:\3eme annee ESISA\C#\Simulateur d'analyseur d'opinitions\bin\Debug\netcoreapp3.1\Simulateur d'analyseur d'opinitions.pdb
+E:\3eme annee ESISA\C#\Simulateur d'analyseur d'opinitions\obj\Debug\netcoreapp3.1\Simulateur d'analyseur d'opinitions.csproj.AssemblyReference.cache
+E:\3eme annee ESISA\C#\Simulateur d'analyseur d'opinitions\obj\Debug\netcoreapp3.1\Simulateur d'analyseur d'opinitions.GeneratedMSBuildEditorConfig.editorconfig
+E:\3eme annee ESISA\C#\Simulateur d'analyseur d'opinitions\obj\Debug\netcoreapp3.1\Simulateur d'analyseur d'opinitions.AssemblyInfoInputs.cache
+E:\3eme annee ESISA\C#\Simulateur d'analyseur d'opinitions\obj\Debug\netcoreapp3.1\Simulateur d'analyseur d'opinitions.AssemblyInfo.cs
+E:\3eme annee ESISA\C#\Simulateur d'analyseur d'opinitions\obj\Debug\netcoreapp3.1\Simulateur d'analyseur d'opinitions.csproj.CoreCompileInputs.cache
+E:\3eme annee ESISA\C#\Simulateur d'analyseur d'opinitions\obj\Debug\netcoreapp3.1\Simulateur d'analyseur d'opinitions.dll
+E:\3eme annee ESISA\C#\Simulateur d'analyseur d'opinitions\obj\Debug\netcoreapp3.1\Simulateur d'analyseur d'opinitions.pdb
+E:\3eme annee ESISA\C#\Simulateur d'analyseur d'opinitions\obj\Debug\netcoreapp3.1\Simulateur d'analyseur d'opinitions.genruntimeconfig.cache
+E:\3eme annee ESISA\C#\Simulateur d'analyseur d'opinitions\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\3eme annee ESISA\C#\Simulateur d'analyseur d'opinitions\obj\Debug\netcoreapp3.1\Simulateur d'analyseur d'opinitions.csproj.CopyComplete
+E:\3eme_Annee\S6\DotNet\Simulateur d'analyseur d'opinitions\obj\Debug\netcoreapp3.1\Simulateur d'analyseur d'opinitions.dll
+E:\3eme_Annee\S6\DotNet\Simulateur d'analyseur d'opinitions\obj\Debug\netcoreapp3.1\Simulateur d'analyseur d'opinitions.pdb

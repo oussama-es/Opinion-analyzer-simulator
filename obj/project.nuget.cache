@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "dgSpecHash": "Tw8ij16vsmy8Z2apNbAJGvgutuAOvEAnJjVdpmd4rUd2inCENeoYIHlaDVeHioYPJhxQdA3gbkGJn2yFu+rHOQ==",
+  "success": false,
+  "projectFilePath": "E:\\3eme_Annee\\S6\\DotNet\\Simulateur d'analyseur d'opinitions\\Simulateur d'analyseur d'opinitions.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Package Newtonsoft.Json avec la version (>= 13.0.2) introuvable\r\n  - Version(s) 1 trouvée(s) dans Microsoft Visual Studio Offline Packages [version la plus proche : 9.0.1]",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Package Microsoft.WindowsDesktop.App.Ref introuvable. Aucun package associé à cet ID n'existe dans la ou les sources suivantes : Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.WindowsDesktop.App.Ref",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Package Microsoft.NETCore.App.Ref introuvable. Aucun package associé à cet ID n'existe dans la ou les sources suivantes : Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App.Ref",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Package Microsoft.AspNetCore.App.Ref introuvable. Aucun package associé à cet ID n'existe dans la ou les sources suivantes : Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.App.Ref",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Package Microsoft.NETCore.App.Host.win-x64 introuvable. Aucun package associé à cet ID n'existe dans la ou les sources suivantes : Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App.Host.win-x64",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

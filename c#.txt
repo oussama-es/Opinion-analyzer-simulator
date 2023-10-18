@@ -1,0 +1,95 @@
+using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace OpinionAnalyzer
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Ouverture du fichier texte
+            string fileName = "texte.txt";
+            string text = File.ReadAllText(fileName);
+
+            // Découpage du contenu en mots
+            string[] words = text.Split(' ', '\n', '\r', '\t');
+
+            // Suppression des mots sans intérêt
+            List<string> stopWords = new List<string> { "le", "la", "les", "de", "un", "avoir", "être", "faire", "malgré", "mais", "pour", "quel", "que" };
+            List<string> meaningfulWords = new List<string>();
+            foreach (string word in words)
+            {
+                string trimmedWord = word.Trim(new char[] { '.', ',', ':', ';', '!', '?', '(', ')', '[', ']', '{', '}', '-', '_', '/', '\\' });
+                if (trimmedWord.All(Char.IsLetter) && !stopWords.Contains(trimmedWord))
+                {
+                    meaningfulWords.Add(trimmedWord.ToLower());
+                }
+            }
+
+            // Création du dictionnaire d'occurrences de chaque mot
+            Dictionary<string, int> wordCount = new Dictionary<string, int>();
+            foreach (string word in meaningfulWords)
+            {
+                if (wordCount.ContainsKey(word))
+                {
+                    wordCount[word]++;
+                }
+                else
+                {
+                    wordCount.Add(word, 1);
+                }
+            }
+
+            // Détermination de la catégorie du texte
+            Dictionary<string, string[]> categoryKeywords = new Dictionary<string, string[]>
+            {
+                { "sport", new string[] { "match", "score", "joueur", "victoire" } },
+                { "cinéma", new string[] { "film", "acteur", "réalisateur", "oscar" } },
+                { "cuisine", new string[] { "recette", "ingrédient", "plat", "chef" } }
+            };
+            int minOccurrences = 3;
+            string category = "inconnue";
+            foreach (KeyValuePair<string, string[]> kvp in categoryKeywords)
+            {
+                int occurrences = 0;
+                foreach (string keyword in kvp.Value)
+                {
+                    if (wordCount.ContainsKey(keyword) && wordCount[keyword] >= minOccurrences)
+                    {
+                        occurrences++;
+                    }
+                }
+                if (occurrences == kvp.Value.Length)
+                {
+                    category = kvp.Key;
+                    break;
+                }
+            }
+
+            // Détermination de l'opinion du rédacteur
+            Dictionary<string, string> opinionKeywords = new Dictionary<string, string>
+            {
+                { "ennuyeux", "négatif" },
+                { "bon", "positif" },
+                { "médiocre", "négatif" },
+                { "tolérable", "neutre" }
+            };
+            string opinion = "inconnue";
+            foreach (KeyValuePair<string, string> kvp in opinionKeywords)
+            {
+                if (wordCount.ContainsKey(kvp.Key))
+                {
+                    opinion = kvp.Value;
+                    break;
+                }
+            }
+
+            // Affichage des résultats
+            Console.WriteLine("Catégorie : " + category);
+            Console.WriteLine("Opinion : " + opinion);
+            Console.ReadKey();
+        }
+    }
+}

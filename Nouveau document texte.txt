@@ -1,0 +1,1 @@
+sport: match, score, joueur", "victoire", "perte", "football", "basketball", "volleyball", "handball", "tennis", "natation", "équipes", "équipe", "musculation", "corps", "calories", "poids", "santé", "cardio"
